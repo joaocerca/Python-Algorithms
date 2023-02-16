@@ -10,8 +10,7 @@
 
 
 def insertion_sort(a, n):
-    temp = 0
-
+    
     for i in range(1, n):        
         key = a[i]  
         j = i - 1   
